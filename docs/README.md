@@ -2,55 +2,60 @@
 
 Welcome to OctoAcme's project management process library. This documentation captures the workflows, roles, and best practices we use to deliver projects successfully.
 
-## Overview
+## Our Approach
 
-OctoAcme follows a structured project management approach centered on clear roles, iterative delivery, transparent communication, and continuous improvement. The process starts with project initiation and validation of the business problem, then moves into planning, execution, release, and retrospective review. This lifecycle keeps teams aligned on goals, priorities, and outcomes while reducing uncertainty and helping projects deliver value in manageable increments.
-
-The project model emphasizes cross-functional collaboration across Product, Project Management, Engineering, QA, and stakeholder groups. Each project has clear ownership, measurable success criteria, and a defined path for work through planning and delivery. Communication is regular and structured, with daily standups, weekly syncs, milestone demos, and escalation paths for blockers or risks. Quality is built into the process through testing, acceptance criteria, CI checks, and post-release verification.
+OctoAcme follows a customer-first, iterative delivery model with clear ownership and data-informed decisions. Each project begins by validating the business problem, aligning stakeholders, and establishing an initial plan. From there, the team breaks work into prioritized, testable increments, tracks progress through structured execution rituals, and uses regular review and release checkpoints to reduce delivery risk. The overall model balances clear accountability with collaboration, ensuring that work stays aligned to customer value and measurable outcomes.
 
 ## Core Principles
 
-- **Customer-first**: Prioritize customer value and usability
-- **Iterative delivery**: Deliver small, testable increments
-- **Clear ownership**: Each project has a named Project Manager and Product Lead
-- **Data-informed decisions**: Measure impact and iterate based on evidence
-- **Psychological safety**: Encourage feedback and learning
+- Customer-first: prioritize customer value and usability
+- Iterative delivery: deliver small, testable increments
+- Clear ownership: each project has a named Project Manager and Product Lead
+- Data-informed decisions: measure impact and iterate based on evidence
+- Psychological safety: encourage feedback and learning
+
+## Project Management Process Summary
+
+OctoAcme's lifecycle is intentionally lightweight but structured: project initiation, planning, execution, release, and retrospective. During initiation, the team defines the business need, stakeholders, success metrics, and a high-level timeline. Planning turns an approved initiative into a backlog with acceptance criteria, milestones, dependencies, and a release plan. Execution tracks daily progress, resolves blockers, and validates work through reviews and automated quality checks. Release work standardizes deployment, verification, and rollback activities, while retrospectives capture lessons learned and convert them into action items for continuous improvement.
 
 ## Documentation Index
 
 ### Getting Started
-- [Project Management Overview](./octoacme-project-management-overview.md) - High-level introduction to OctoAcme's PM approach, roles, and key artifacts
-- [Roles and Personas](./octoacme-roles-and-personas.md) - Definitions of key roles (PM, PdM, Developers, QA) and their responsibilities
+
+- [Project Management Overview](./octoacme-project-management-overview.md) — High-level introduction to OctoAcme's PM approach, roles, and key artifacts
+- [Roles and Personas](./octoacme-roles-and-personas.md) — Definitions of key roles and their responsibilities
 
 ### Project Lifecycle
-- [Project Initiation](./octoacme-project-initiation.md) - Steps to validate and authorize new projects
-- [Project Planning](./octoacme-project-planning.md) - Turn approved initiatives into actionable plans
-- [Execution and Tracking](./octoacme-execution-and-tracking.md) - Day-to-day execution, delivery workflow, and progress tracking
-- [Release and Deployment](./octoacme-release-and-deployment.md) - Standardized release and deployment processes
-- [Retrospective and Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) - Capture learnings and drive improvements
+
+- [Project Initiation](./octoacme-project-initiation.md) — Define business need, align stakeholders, and establish the initial plan
+- [Project Planning](./octoacme-project-planning.md) — Break work into shippable increments and identify dependencies
+- [Execution and Tracking](./octoacme-execution-and-tracking.md) — Manage day-to-day execution, progress, and blockers
+- [Release and Deployment](./octoacme-release-and-deployment.md) — Standardize release and rollback practices
+- [Retrospective and Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) — Capture learning and improve future delivery
 
 ### Cross-Cutting Concerns
-- [Risk Management and Communication](./octoacme-risks-and-communication.md) - Identify, track, and communicate risks and dependencies
 
-## Quick Reference: Choose Your Guide
+- [Risk Management and Communication](./octoacme-risks-and-communication.md) — Identify, track, and communicate risks and dependencies
+
+## Quick Reference: Choose the Right Guide
 
 | I want to... | Read this |
-|---|---|
-| Understand OctoAcme's PM philosophy | [Project Management Overview](./octoacme-project-management-overview.md) |
+| --- | --- |
+| Understand OctoAcme's project management philosophy | [Project Management Overview](./octoacme-project-management-overview.md) |
 | Start a new project | [Project Initiation](./octoacme-project-initiation.md) |
-| Break down a project into work items | [Project Planning](./octoacme-project-planning.md) |
-| Track daily progress and blockers | [Execution and Tracking](./octoacme-execution-and-tracking.md) |
-| Learn about different team roles | [Roles and Personas](./octoacme-roles-and-personas.md) |
-| Manage risks and escalate issues | [Risk Management and Communication](./octoacme-risks-and-communication.md) |
-| Deploy a release to production | [Release and Deployment](./octoacme-release-and-deployment.md) |
+| Break work into a backlog and milestones | [Project Planning](./octoacme-project-planning.md) |
+| Track daily execution and blockers | [Execution and Tracking](./octoacme-execution-and-tracking.md) |
+| Learn about team roles and responsibilities | [Roles and Personas](./octoacme-roles-and-personas.md) |
+| Identify and escalate risks | [Risk Management and Communication](./octoacme-risks-and-communication.md) |
+| Deliver a feature or hotfix safely | [Release and Deployment](./octoacme-release-and-deployment.md) |
 | Run a retrospective and improve | [Retrospective and Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) |
 
 ## Getting Started for New Team Members
 
-1. Start with the [Project Management Overview](./octoacme-project-management-overview.md) to understand the roles, lifecycle, and key artifacts.
-2. Review [Roles and Personas](./octoacme-roles-and-personas.md) to understand responsibilities across Product, Project Management, Engineering, and QA.
-3. Use the lifecycle flow in order: [Initiation](./octoacme-project-initiation.md) → [Planning](./octoacme-project-planning.md) → [Execution](./octoacme-execution-and-tracking.md) → [Release](./octoacme-release-and-deployment.md) → [Retrospective](./octoacme-retrospective-and-continuous-improvement.md).
-4. Refer to [Risk Management and Communication](./octoacme-risks-and-communication.md) throughout the project for escalation and stakeholder updates.
+1. Start with the [Project Management Overview](./octoacme-project-management-overview.md) to understand the overall philosophy and key artifacts.
+2. Read [Roles and Personas](./octoacme-roles-and-personas.md) to learn the responsibilities of the PM, Product Lead, developers, QA, and stakeholders.
+3. Follow the lifecycle docs in order for a new project: Initiation → Planning → Execution → Release → Retrospective.
+4. Use [Risk Management and Communication](./octoacme-risks-and-communication.md) throughout delivery to monitor important dependencies and blockers.
 
 ---
 
