@@ -1,64 +1,62 @@
-# OctoAcme Project Management Docs
+# OctoAcme Project Management Documentation
 
-## Overview
+Welcome to OctoAcme's project management process library. This documentation captures the workflows, roles, and best practices used to deliver projects with clear ownership, measurable outcomes, and disciplined execution.
 
-OctoAcme follows a structured project management approach centered on clear roles, data-driven decisions, iterative delivery, and psychological safety. These docs provide a comprehensive guide to our processes across the full project lifecycle.
+## OctoAcme Project Management Process Summary
 
-### How OctoAcme Operates
+OctoAcme follows a structured but lightweight project lifecycle: initiation, planning, execution, release, and retrospective. New work begins by validating the business need, aligning stakeholders, and documenting the problem, success metrics, risks, timeline, and resource needs in a project one-pager. Once approved, the team converts the idea into a prioritized backlog, milestone map, and release plan with explicit acceptance criteria and a definition of done. This keeps projects grounded in customer value while reducing ambiguity and delivery risk.
 
-OctoAcme operates through a structured but lightweight lifecycle: initiation, planning, execution, release, and close-out. Every project starts by validating the business problem and aligning stakeholders around a clear objective, using a project one-pager with success metrics, stakeholders, timeline, risks, and resource needs. Once approved, the team turns the idea into a prioritized backlog, milestone map, and release plan, with explicit acceptance criteria and a definition of done. The process emphasizes iterative delivery, clear ownership, and measurable outcomes rather than large, high-risk "big bang" efforts.
+The process depends on clear role ownership and collaboration across functions. Product managers define outcomes and prioritize the backlog, project managers coordinate schedules, dependencies, and communication, developers build and test the solution, and QA validates feature quality and acceptance. It is supported by a communication rhythm that includes weekly PM/product alignment, standups, milestone updates, and escalation paths for dependencies or business-impacting risks. These practices help teams stay aligned and move quickly without losing transparency.
 
-The documentation defines several core roles that work together across the lifecycle. Product managers own the problem statement, prioritization, and success metrics, while project managers coordinate schedules, dependencies, communication, and risks. Developers build and test the solution, QA validates feature quality and acceptance, and stakeholders provide input, approvals, and business context. This role clarity helps teams avoid ambiguity and supports cross-functional collaboration across planning, delivery, and post-release learning.
-
-Communication is a central component of OctoAcme's operating model. The team follows a cadence of weekly project syncs, twice-weekly standups, milestone-based stakeholder updates, and ad hoc escalations when issues arise. Risks and blockers are tracked in a risk register and escalated through defined levels, from the team to the PM, then to product leadership and sponsors if the issue has business impact. Quality assurance is embedded throughout the delivery process rather than treated as a final step, including unit tests, integration tests, smoke tests, security scanning, and code reviews before merge.
+Quality assurance is built into the entire lifecycle rather than treated as a final step. OctoAcme expects unit tests, integration tests where needed, end-to-end smoke testing for critical flows, security checks in CI, and code review standards before merge. Teams also run demos and retrospectives to capture learning, address blockers, and improve the process over time. This creates a repeatable operating model that balances speed with accountability and quality.
 
 ## Core Principles
 
-- **Customer-first**: Prioritize customer value and usability
-- **Iterative delivery**: Deliver small, testable increments
-- **Clear ownership**: Named Project Manager (PM) and Product Lead for each project
-- **Data-informed decisions**: Measure impact and iterate based on evidence
-- **Psychological safety**: Encourage feedback and learning
+- Customer-first: Prioritize customer value and usability
+- Iterative delivery: Deliver small, testable increments
+- Clear ownership: Named Project Manager (PM) and Product Lead for each project
+- Data-informed decisions: Measure impact and iterate based on evidence
+- Psychological safety: Encourage feedback and learning
 
-## Process Documentation
+## Documentation Index
+
+### Getting Started
+
+- [Project Management Overview](./octoacme-project-management-overview.md) — High-level introduction to OctoAcme's PM approach, roles, and key artifacts
+- [Roles and Personas](./octoacme-roles-and-personas.md) — Definitions of key roles and responsibilities across the project lifecycle
 
 ### Project Lifecycle
 
-1. **[Project Initiation](octoacme-project-initiation.md)** — Define business need, align stakeholders, establish initial timeline
-2. **[Project Planning](octoacme-project-planning.md)** — Break work into shippable increments, identify dependencies and risks
-3. **[Execution & Tracking](octoacme-execution-and-tracking.md)** — Manage day-to-day execution, track progress, resolve blockers
-4. **[Release & Deployment](octoacme-release-and-deployment.md)** — Standardize release processes and reduce deployment risk
-5. **[Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)** — Capture learnings and drive improvements
+- [Project Initiation](./octoacme-project-initiation.md) — Validate the business need, align stakeholders, and define the initial plan
+- [Project Planning](./octoacme-project-planning.md) — Turn approved initiatives into actionable plans, backlog items, and milestones
+- [Execution and Tracking](./octoacme-execution-and-tracking.md) — Manage day-to-day delivery, track progress, and resolve blockers
+- [Release and Deployment](./octoacme-release-and-deployment.md) — Standardize release processes and reduce deployment risk
+- [Retrospective and Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) — Capture learning and turn it into improvements
 
-### Supporting Guides
+### Cross-Cutting Concerns
 
-- **[Project Management Overview](octoacme-project-management-overview.md)** — High-level introduction to OctoAcme's approach, roles, and key artifacts
-- **[Risk Management & Communication](octoacme-risks-and-communication.md)** — Identify, manage, and communicate risks and dependencies
-- **[Roles & Personas](octoacme-roles-and-personas.md)** — Definitions of core roles: Developers, Product Managers, Project Managers
+- [Risk Management and Communication](./octoacme-risks-and-communication.md) — Identify, track, and communicate risks and dependencies
 
-## Key Artifacts
+## Quick Reference: Choose the Right Guide
 
-- Project Charter / One-pager
-- Roadmap and Release Plan
-- Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
-- Retrospective notes and action items
+| I want to... | Read this |
+| --- | --- |
+| Understand OctoAcme's project management philosophy | [Project Management Overview](./octoacme-project-management-overview.md) |
+| Start a new project | [Project Initiation](./octoacme-project-initiation.md) |
+| Break work into backlog items and milestones | [Project Planning](./octoacme-project-planning.md) |
+| Track day-to-day progress and blockers | [Execution and Tracking](./octoacme-execution-and-tracking.md) |
+| Learn how roles work together | [Roles and Personas](./octoacme-roles-and-personas.md) |
+| Manage risks and escalate issues | [Risk Management and Communication](./octoacme-risks-and-communication.md) |
+| Deploy a release to production | [Release and Deployment](./octoacme-release-and-deployment.md) |
+| Run a retrospective and improve the team process | [Retrospective and Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) |
 
-## Issue Templates
+## Getting Started for New Team Members
 
-Refer to the [Issue Templates](../.github/ISSUE_TEMPLATE/) for standardized templates when creating issues related to process updates. Use the **[Add Content to Project Management Process Docs](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml)** template when proposing new content or updates to these docs.
+1. Start with the [Project Management Overview](./octoacme-project-management-overview.md) to understand the big picture.
+2. Read [Roles and Personas](./octoacme-roles-and-personas.md) to understand responsibilities and collaboration patterns.
+3. Follow the lifecycle docs in order for your current project: Initiation → Planning → Execution → Release → Retrospective.
+4. Use [Risk Management and Communication](./octoacme-risks-and-communication.md) as a reference throughout the project to surface risks and communicate effectively.
 
-## Communication Cadence
+## Summary of Expected Use
 
-- **Weekly sync**: Project Manager and Product Manager alignment
-- **Twice-weekly standups**: Delivery team progress and blockers
-- **Monthly updates**: Stakeholder briefings
-- **Ad-hoc escalations**: High-priority risks and decisions
-
-## Getting Started
-
-1. Start with the **[Project Management Overview](octoacme-project-management-overview.md)** for a concise introduction to roles and key artifacts.
-2. Follow the process documentation in order for a new project: Initiation → Planning → Execution → Release → Retrospective.
-3. Refer to **[Roles & Personas](octoacme-roles-and-personas.md)** to understand your responsibilities and how you collaborate with other roles.
-4. Use the **[Risk Management & Communication](octoacme-risks-and-communication.md)** guide as a reference throughout your project lifecycle.
+These documents are intended to serve as a shared operating model for OctoAcme project teams. They help standardize how work is initiated, planned, executed, and improved while reinforcing a culture of ownership, learning, and transparency.
